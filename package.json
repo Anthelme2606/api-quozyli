@@ -4,10 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-  "start": "node ./app.js",
-  "dev": "nodemon ./app.js"
-}
-,
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -21,6 +20,7 @@
     "express": "^4.21.1",
     "express-fileupload": "^1.5.1",
     "graphql": "^16.9.0",
+    "graphql-subscriptions": "^3.0.0",
     "graphql-upload-minimal": "^1.6.1",
     "http": "^0.0.1-security",
     "jsonwebtoken": "^9.0.2",
